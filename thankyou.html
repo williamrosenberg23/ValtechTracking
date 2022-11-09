@@ -44,8 +44,8 @@
       window.dataLayer = window.dataLayer || [];
             window.dataLayer.push({
             'event': 'completedOrder',
-            'item': product,
-            'price': price
+            'item': product.toString(),
+            'price': parseInt(price)
  });
     </script>
   </body>
